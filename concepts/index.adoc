@@ -1,6 +1,4 @@
-=== Concepts
-
-==== Software Development Model
+=== Software Development Model
 
 Basically there are 2 main paths to chose from, either you start from scratch or you decide to decompose an existing application into a set of microservices and to reuse existing.
 The process to create from scratch a new application is named *greenfield* while the other is *brownfield*.
