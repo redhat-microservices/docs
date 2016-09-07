@@ -41,8 +41,10 @@
 | Uberjar
 | An application packaged as a jar file that contains all dependencies even dependencies like the servlet engine.
 |
+|
 | Uberjar
 | A jar file with all dependencies included inside
+|
 |
 | WildFly Swarm	Upstream project based on WildFly.
 | Packages Java EE applications as an Uberjar.
