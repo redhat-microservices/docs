@@ -13,7 +13,6 @@ before_install:
   - docker pull cmoulliard/docker-asciidoctor:0.1
 
 script:
-  - ls -la $TRAVIS_BUILD_DIR/docs ;
   # - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html cmoulliard/docker-asciidoctor:0.1 asciidoctor -a stylesheet=$STYLES/asciidoctor.css -a allow-uri-read -D /documents/output *.adoc
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html cmoulliard/docker-asciidoctor:0.1 asciidoctor -a allow-uri-read -D /documents/output *.adoc
   - echo "Files generated" ; ls -la $TRAVIS_BUILD_DIR/output ;

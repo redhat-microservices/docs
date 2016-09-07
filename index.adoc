@@ -9,11 +9,11 @@
 
 == General
 
-include::admin/overview.adoc[]
+include::general/overview.adoc[]
 
-include::admin/contributing.adoc[]
+include::general/contributing.adoc[]
 
-include::admin/convention.adoc[]
+include::general/convention.adoc[]
 
 == Inventory of the material
 
