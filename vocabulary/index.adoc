@@ -13,16 +13,15 @@
 | Name
 | Description
 | Links
-|
+
 | Archaius (NetflixOSS)
 | dynamic, multi dimensional, properties framework
 | https://github.com/Netflix/archaius, http://techblog.netflix.com/2012/06/annoucing-archaius-dynamic-properties.html
-|
+
 | Cloud Native Computing Foundation (CNCF)
-| Started by the Linux Foundation.
-| "The Foundation’s mission is to create and drive the adoption of a new computing paradigm that is optimized for modern distributed systems environments capable of scaling to tens of thousands of self healing multi-tenant nodes."
+| Started by the Linux Foundation. "The Foundation’s mission is to create and drive the adoption of a new computing paradigm that is optimized for modern distributed systems environments capable of scaling to tens of thousands of self healing multi-tenant nodes."
 | https://cncf.io/
-|
+
 | NetflixOSS
 | Netflix Open Source Software Center.  Many of the projects Netflix has released are used in microservices projects.  Pivotal leverages them heavily.
 | Netflix Open Source Software Center
@@ -30,31 +29,31 @@
 | Prometheus
 | Monitoring and alerting toolkit built by SoundCloud and open sourced.  Member of the CNCF.
 | https://prometheus.io/
-|
+
 | Ribbon (NetflixOSS)
 | Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
 | GitHub - Netflix/ribbon: Ribbon is a Inter Process Communication (remote procedure calls) library with built in software…
-|
+
 | Spring Boot
 | Packages Spring applications as an Uberjar.
 | Spring Boot
-|
+
 | Uberjar
 | An application packaged as a jar file that contains all dependencies even dependencies like the servlet engine.
 |
-|
+
 | Uberjar
 | A jar file with all dependencies included inside
 |
-|
+
 | WildFly Swarm	Upstream project based on WildFly.
 | Packages Java EE applications as an Uberjar.
 | Rightsize your JavaEE Applications | WildFly Swarm
-|
+
 | Zipkin
 | distributed tracing system
 | http://zipkin.io/
-|
+
 | Zuul (NetflixOSS)
 | From https://github.com/Netflix/zuul : "Zuul is an edge service that provides dynamic routing, monitoring, resiliency, security, and more. Please view the wiki for usage, information, HOWTO, etc https://github.com/Netflix/zuul/wiki"
 | GitHub - Netflix/zuul: Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and mo…
