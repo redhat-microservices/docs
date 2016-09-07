@@ -1,7 +1,12 @@
-=== Vocabulary
+=== Terms
 
 * Microservices :
 * Paas :
 * Physical :
 * Virtualized :
 * Cloud :
+
+=== Technical
+
+* NetFlix ribbon
+* Zipkin

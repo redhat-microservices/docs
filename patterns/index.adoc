@@ -1,6 +1,4 @@
-=== Patterns
-
-==== Monolith Architecture
+=== Monolith Architecture
 
 TODO
 
@@ -9,7 +7,7 @@ TODO
 * Solution
 * Example
 
-==== Microservices Architecture
+=== Microservices Architecture
 
 TODO
 
@@ -18,7 +16,7 @@ TODO
 * Solution
 * Example
 
-==== Service Discovery
+=== Service Discovery
 
 TODO
 
@@ -27,7 +25,7 @@ TODO
 * Solution
 * Example
 
-==== Api Gateway
+=== Api Gateway
 
 TODO
 
