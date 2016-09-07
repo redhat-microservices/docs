@@ -1,6 +1,6 @@
 === Patterns
 
-=== Monolith Architecture
+==== Monolith Architecture
 
 TODO
 
