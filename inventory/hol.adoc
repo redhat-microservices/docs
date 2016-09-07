@@ -1,0 +1,4 @@
+=== Hands on Lab
+
+.Java One 2017
+* https://github.com/redhat-microservices/lab_swarm_forge-keycloak[Hol with Wildfly Swarm, Forge & Keycloak]

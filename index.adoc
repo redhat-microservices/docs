@@ -1,0 +1,37 @@
+:doctype: article
+:toc: left
+:toclevels: 3
+:toc-position: left
+:toc-title: Red Hat Microservices
+:numbered:
+
+= Red Hat Microservices
+
+== General
+
+include::admin/overview.adoc[]
+
+include::admin/contributing.adoc[]
+
+include::admin/convention.adoc[]
+
+== Inventory of the material
+
+include::inventory/quickstarts.adoc[]
+
+include::inventory/hol.adoc[]
+
+include::inventory/others.adoc[]
+
+== Vocabulary
+
+include::vocabulary/index.adoc[]
+
+== Patterns
+
+include::patterns/index.adoc[]
+
+== Concepts
+
+include::concepts/index.adoc[]
+

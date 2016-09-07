@@ -1,0 +1,15 @@
+=== Concepts
+
+==== Software Development Model
+
+Basically there are 2 main paths to chose from, either you start from scratch or you decide to decompose an existing application into a set of microservices and to reuse existing.
+The process to create from scratch a new application is named *greenfield* while the other is *brownfield*.
+
+As opposed to the Green Field path, we are not starting from scratch, rather we are going to focus on keeping our previous investment, and wish the team to stay focused on the same language rather than learning a new one. Again here we will start with Java EE, basing our example on an existing Java EE application that we wish to decompose, while preserving its functionality intact, keep the code untouched and allow the app to benefit from sampler footprint and its services to evolve independently.
+
+.Reference
+
+* http://en.wikipedia.org/wiki/Brownfield_(software_development)[Brownfield - wiki]
+* http://www.webopedia.com/TERM/B/brownfield.html[Brownfield - Webopedia]
+* http://en.wikipedia.org/wiki/Greenfield_project[Greenfield - wiki]
+* http://www.webopedia.com/TERM/G/greenfield.html[Greenfield - Webopedia]

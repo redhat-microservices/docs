@@ -1,0 +1,16 @@
+=== Contributing
+
+To contribute to this organisation, you can submit your Project's informations or the code in order to create a new Git project to host it. You can also keep & maintain your project separately.
+In both cases, here are the information required :
+
+* Name of the project,
+* Description,
+* Technology involved : Language used, Domain (Middleware, mobile, ...)
+* Tags : categories, keywords describing the project
+* Owner : Author or main contributor of the project
+* Link to the git repository (github, bitbucket, ...) - optional
+
+Of course, there are plenty of things to do around the documentation and we will appreciate a lot if you enrich the patterns, vocabulary, concepts, quickstarts, ...
+
+The Microservices Team !
+

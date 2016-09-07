@@ -1,0 +1,9 @@
+=== Quickstarts
+
+.HelloWorld
+* https://github.com/redhat-helloworld-msa/helloworld-msa[Hello World Microservices]
+
+.Camel, SpringBoot, Karaf
+* http://fabric8.io/guide/quickstarts/index.html[Fabric8 Quickstarts]
+* http://fabric8.io/guide/quickstarts/archetypes.html[Fabric8 Archetypes]
+* https://github.com/FuseByExample/microservice-camel-in-action[FuseByExamples & Camel Microservices]

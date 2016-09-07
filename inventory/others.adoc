@@ -1,0 +1,9 @@
+=== Others
+
+.Book
+* https://github.com/redhat-developer/microservices-by-example-source[Source of the Christian Posta Book “Microservices”]
+
+.Monolith to Micro
+* https://github.com/search?q=user%3Achristian-posta+ticket[Ticket Monster Application (Monolith to Microservices)]
+* http://www.jboss.org/ticket-monster/[Monolith Ticket Monster]
+* http://wildfly-swarm.io/tutorial/[Simplified e-commerce application using a layered architecture (front (jsf) - logic (ejb) - data access (jpa))]

@@ -1,0 +1,23 @@
+=== Convention to follow to create a project
+
+==== Technology driven
+
+Every git hub project to be created will be named according to this convention :
+
+- The name of the project will start with a 3-4 letters prefix describing what type of content it is related to (e.g lab = Lab, Hand on lab; quick = quickstart, … ),
+- Followed by the targeted container (e.g. swarm = WildFly Swarm; eap = JBoss EAP; fuse = JBoss Fuse; sb = SpringBoot) &
+- Finally any keywords which will help to better define/describe what the project stands for (sec= security, sso = single sign on; tool = tooling).
+
+Remark: The prefix, target & keywords will be separated by the underscore symbol.
+
+So for the *Hands On Lab* project designed using *WildFly Swarm* as Java EE container and based on these technical concepts JBoss Forge as *tooling engine*, Keycloak as *SSO platform* to secure the application, we will name it as such *hol_swarm_tool-sso*.
+
+==== User story based
+
+A git hub project can also created by adopting a different convention where we favored the enterprise patterns, use case, domain, part of the project developed. In this case, we will adopt this convention :
+
+- The name of the github repo will start with a 3-4 letters prefix describing what type of content it is related to (e.g lab = Lab, Hand on lab; quick = quickstart, demo = demo, ...),
+- Next, we will include the shorter name of the main technology domain covered (e.g javaee = Java EE, integr = integration, brms = business rules management system, ws = web service, rest = restfull services, api = api management, mob = mobile, msg = messaging, cloud = OpenShift Cloud Platform, ...) 
+- To continue with the keywords and/or elements which can best describe the use case covered
+
+By example the *Quickstart* project designed to demonstrate how *OpenShift* and *Kubernetes* supports the Microservices *Service Discovery pattern* will be named as such *quick_cloud_servicediscovery-dns*

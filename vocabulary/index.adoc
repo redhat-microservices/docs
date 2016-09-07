@@ -1,0 +1,7 @@
+== Vocabulary
+
+* Microservices :
+* Paas :
+* Physical :
+* Virtualized :
+* Cloud :

@@ -1,0 +1,37 @@
+env:
+  global:
+    # Asciidoctor STYLES directory
+    - STYLES=/asciidoctor-styles/stylesheets
+
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - mkdir -p output ;
+  - docker pull cmoulliard/docker-asciidoctor:0.1
+
+script:
+  - ls -la $TRAVIS_BUILD_DIR/docs ;
+  # - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html cmoulliard/docker-asciidoctor:0.1 asciidoctor -a stylesheet=$STYLES/asciidoctor.css -a allow-uri-read -D /documents/output *.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html cmoulliard/docker-asciidoctor:0.1 asciidoctor -a allow-uri-read -D /documents/output *.adoc
+  - echo "Files generated" ; ls -la $TRAVIS_BUILD_DIR/output ;
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf cmoulliard/docker-asciidoctor:0.1 asciidoctor-pdf -D /documents/output *.adoc
+  - echo "PDF File(s) created" ; ls -la $TRAVIS_BUILD_DIR/output/*.pdf ;
+
+after_error:
+  - docker logs asciidoc-to-html
+  - docker logs asciidoc-to-pdf
+
+after_failure:
+  - docker logs asciidoc-to-html
+  - docker logs asciidoc-to-pdf
+
+after_success:
+  - cd output ;
+  - git init
+  - git config user.name "${GH_USER_NAME}"
+  - git config user.email "{GH_USER_EMAIL}"
+  - git add . ; git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
