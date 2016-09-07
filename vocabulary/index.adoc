@@ -8,6 +8,7 @@
 
 === Technical Glossary
 
+[options="header"]
 |===
 | Name
 | Description
