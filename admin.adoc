@@ -5,10 +5,20 @@
 :toc-title: Red Hat Microservices - Admin
 :numbered:
 
-= Red Hat Microservices - Admin
+= Red Hat Microservices
+
+== Admin
 
 include::admin/overview.adoc[]
 
 include::admin/contributing.adoc[]
 
 include::admin/convention.adoc[]
+
+== Inventory of the material
+
+include::admin/quickstarts.adoc[]
+
+include::admin/hol.adoc[]
+
+include::admin/others.adoc[]

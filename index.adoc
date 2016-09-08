@@ -94,14 +94,6 @@ include::general/overview.adoc[]
 
 * Data Centers Topology
 
-== Inventory of the material
-
-include::inventory/quickstarts.adoc[]
-
-include::inventory/hol.adoc[]
-
-include::inventory/others.adoc[]
-
 == Vocabulary
 
 include::vocabulary/index.adoc[]
