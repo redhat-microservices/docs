@@ -1,0 +1,5 @@
+=== Introduction
+
+The big picture : to be explained in detail
+
+image::images/ms-developer.png[]

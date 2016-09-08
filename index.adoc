@@ -13,19 +13,13 @@ include::general/overview.adoc[]
 
 == Methodology
 
-=== Cloud Native Platform
+include::methodology/introduction.adoc[]
 
-=== Continuous Integration & Delivery
+include::methodology/cloud-native.adoc[]
 
-=== Actors
+include::methodology/continuous-delivery-integration.adoc[]
 
-==== Developer
-
-==== Architect
-
-==== Builder
-
-==== Operations
+include::methodology/actors.adoc[]
 
 == Developer Guide
 
