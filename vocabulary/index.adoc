@@ -8,7 +8,7 @@
 
 === Technical Glossary
 
-[options="header"]
+[cols="3*",options="header"]
 |===
 | Name
 | Description
