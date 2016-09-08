@@ -31,8 +31,9 @@ include::general/overview.adoc[]
 
 === Design and Patterns selection
 
-*
+* Circuit Breaker
 * Api Gateway
+* Load Balancing & resilience
 
 === Tooling & IDE
 
