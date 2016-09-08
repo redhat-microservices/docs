@@ -15,6 +15,83 @@ include::general/contributing.adoc[]
 
 include::general/convention.adoc[]
 
+== Methodology
+
+=== Cloud Native Platform
+
+=== Continuous Integration & Development
+
+=== Actors
+
+==== Developer
+
+==== Architect
+
+==== Builder
+
+==== Operations
+
+== Developer Guide
+
+=== Design and Patterns selection
+
+*
+* Api Gateway
+
+=== Tooling
+
+* Apache Maven & JBoss Forge
+* Microservices Forge commands
+* OpenShift & Kubernetes Clients
+
+=== Containers
+
+* WildFly Swarm
+* SpringBoot
+* Vert.x
+
+=== Reactive Programming
+
+=== Testing
+
+* Arquillian
+* Arquillian Cube (docker)
+
+=== Packaging
+
+* Docker image(s)
+* Kubernetes application
+* Service & Routes
+
+== Builder Guide
+
+=== Infrastructure setup
+
+* Gogs/GitLab
+* Jenkins
+* Gerrit
+* Taiga
+* Letchat
+* Slack
+
+=== CI/CD
+
+* http://martinfowler.com/bliki/CanaryRelease.html[Canary Release]
+* Jenkins Pipelines
+
+== Operations Guide
+
+* OpenShift Nodes
+* Docker Registry Setup
+* SSO & Security config
+* Load Balancing & HA
+* Service Discovery
+* Logging & Distributed tracing
+* Metrics & performances
+* Api Gateway
+
+* Data Centers Topology
+
 == Inventory of the material
 
 include::inventory/quickstarts.adoc[]
