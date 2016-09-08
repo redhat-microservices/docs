@@ -15,7 +15,7 @@ include::general/overview.adoc[]
 
 === Cloud Native Platform
 
-=== Continuous Integration & Development
+=== Continuous Integration & Delivery
 
 === Actors
 

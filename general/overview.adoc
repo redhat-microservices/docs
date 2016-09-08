@@ -1,7 +1,9 @@
 == Introduction
 
 The design, development, packaging and monitoring of a project architected around the Microservices Model implies that we embrace new concepts, patterns and development
-practices. Through this documentation we will explain how you can implement the required methodology to develop Microservices, deploy them in a Cloud Native Platform and
+practices.
+
+Through this documentation we will explain how you can implement the required methodology to develop Microservices, deploy them in a Cloud Native Platform and
 speed your delivery processes by adopting a Continuous Integration and Deployment approach.
 
 To be continued ...
