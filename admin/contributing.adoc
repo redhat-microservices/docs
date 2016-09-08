@@ -1,4 +1,4 @@
-=== Contributing
+== Contributing
 
 To contribute to this organisation, you can submit your Project's informations or the code in order to create a new Git project to host it. You can also keep & maintain your project separately.
 In both cases, here are the information required :

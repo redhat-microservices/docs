@@ -11,10 +11,6 @@
 
 include::general/overview.adoc[]
 
-include::general/contributing.adoc[]
-
-include::general/convention.adoc[]
-
 == Methodology
 
 === Cloud Native Platform
@@ -38,11 +34,14 @@ include::general/convention.adoc[]
 *
 * Api Gateway
 
-=== Tooling
+=== Tooling & IDE
 
-* Apache Maven & JBoss Forge
+* Apache Maven
+* JBoss Forge + addons ?
 * Microservices Forge commands
-* OpenShift & Kubernetes Clients
+* OpenShift & Kubernetes Client
+* Minishift
+* JBDS + Addons ?
 
 === Containers
 
@@ -51,6 +50,8 @@ include::general/convention.adoc[]
 * Vert.x
 
 === Reactive Programming
+
+* TODO
 
 === Testing
 

@@ -1,6 +1,6 @@
-=== Convention to follow to create a project
+== Convention to follow to create a project
 
-==== Technology driven
+=== Technology driven
 
 Every git hub project to be created will be named according to this convention :
 
@@ -12,7 +12,7 @@ Remark: The prefix, target & keywords will be separated by the underscore symbol
 
 So for the *Hands On Lab* project designed using *WildFly Swarm* as Java EE container and based on these technical concepts JBoss Forge as *tooling engine*, Keycloak as *SSO platform* to secure the application, we will name it as such *hol_swarm_tool-sso*.
 
-==== User story based
+=== User story based
 
 A git hub project can also created by adopting a different convention where we favored the enterprise patterns, use case, domain, part of the project developed. In this case, we will adopt this convention :
 
