@@ -11,15 +11,17 @@
 
 include::general/overview.adoc[]
 
-== Methodology
+== Fundamental
 
-include::methodology/introduction.adoc[]
+include::fundamental/introduction.adoc[]
 
-include::methodology/cloud-native.adoc[]
+include::fundamental/decompose.adoc[]
 
-include::methodology/continuous-delivery-integration.adoc[]
+include::fundamental/cloud-native.adoc[]
 
-include::methodology/actors.adoc[]
+include::fundamental/continuous-delivery-integration.adoc[]
+
+include::fundamental/actors.adoc[]
 
 == Developer Guide
 
