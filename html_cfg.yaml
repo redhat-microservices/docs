@@ -1,0 +1,16 @@
+source: "/Users/chmoulli/Google-Drive/REDHAT/RH-GP/Projects/redhat-microservices/docs" # or could be a directory eg. ./examples
+destination: "/Users/chmoulli/Google-Drive/REDHAT/RH-GP/Projects/redhat-microservices/docs/generated"
+
+attributes:
+  #stylesheet: 'foundation.css'
+  #stylesdir: '/Users/chmoulli/Code/github/asciidoctor/asciidoctor-stylesheet-factory/stylesheets'
+  nofooter: 'yes'
+  icons: 'font'
+  # linkcss: 'true' # Don't use this option if you want to embed the CSS
+
+options:
+  to_dir: 'generated'
+  header_footer: 'true'
+  #to_file: 'output.html'
+  safe: 'unsafe' # Required to avoid that the file to process is not loaded
+
