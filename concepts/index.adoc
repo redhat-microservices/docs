@@ -11,3 +11,7 @@ As opposed to the Green Field path, we are not starting from scratch, rather we 
 * http://www.webopedia.com/TERM/B/brownfield.html[Brownfield - Webopedia]
 * http://en.wikipedia.org/wiki/Greenfield_project[Greenfield - wiki]
 * http://www.webopedia.com/TERM/G/greenfield.html[Greenfield - Webopedia]
+
+=== 12-factor Apps
+
+https://12factor.net/
