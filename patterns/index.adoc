@@ -16,6 +16,15 @@ TODO
 * Solution
 * Example
 
+=== Configuration
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
 === Service Discovery
 
 TODO
@@ -33,3 +42,49 @@ TODO
 * Problem
 * Solution
 * Example
+
+=== Circuit Breaker
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
+=== Rolling upgrade
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
+=== Distributed Tracing & Logging
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
+=== Instrumentation
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
+=== high Availability & Loadbalancing
+
+TODO
+
+* Description
+* Problem
+* Solution
+* Example
+
